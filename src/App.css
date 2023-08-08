@@ -1,0 +1,33 @@
+/*
+// FOr Light theme
+:root {
+  --ck-border-radius: 8px;
+  --ck-color-focus-border: #9C27B0;
+  --ck-color-button-on-color: #9C27B0;
+  --ck-color-list-button-hover-background: #CE93D870;
+  --ck-color-list-button-on-background-focus: #CE93D8;
+} */
+
+/* For Dark theme */
+:root {
+  --ck-border-radius: 8px;
+  --ck-color-focus-border: #ffeb3b;
+  --ck-color-button-on-color: #ffeb3b;
+  --ck-color-button-on-background: #121212;
+  --ck-color-button-default-hover-background: #121212;
+  --ck-color-button-default-active-background: #121212;
+  --ck-color-button-on-hover-background: #121212;
+  --ck-color-button-on-active-background: #121212;
+  --ck-color-list-button-hover-background: #fff9c470;
+  --ck-color-list-button-on-background-focus: #fff9c4;
+  --ck-color-base-background: rgb(37, 37, 40);
+  --ck-color-text: white;
+  --ck-custom-white:: #ffeb3b;
+  --ck-color-table-focused-cell-background: black;
+  --ck-color-button-default-active-shadow: none;
+}
+
+.ck-content {
+  max-height: 70vh;
+  min-height: 200px;
+}
